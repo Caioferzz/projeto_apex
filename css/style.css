@@ -1,0 +1,110 @@
+:root{
+    --primary-color: #C83C35;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Oxanium;
+}
+.cenario{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -999;
+}
+.header{
+    background-color: #161616;
+    height: 40px;
+    width: 1,920px;
+    display: flex;
+    justify-content: flex-end;  
+    align-items: center;
+    gap: 30px;
+}
+.vector{
+    display: flex;
+    transform: translate(-50px,0);
+}
+.vector2{
+    display: flex;
+}
+.EA{
+    padding-right: 40px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 18vw;
+    width: 1675px;
+    height: 81.5px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 20px;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.download{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    width: 233px;
+    height: 48px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+.container-jogar{
+    height: 423.76px;
+    width: 861px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.informacao-do-jogo{
+    font-size: 25px;
+}
+.botao-de-jogar{
+    display: flex;
+    gap: 24px;
+}
+.play-free{
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 281px;
+    height: 71px;
+}
+.divisao{
+    display: flex; 
+    flex-direction: column;
+}
+.assistir-trailer{
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 281px;
+    height: 71px;
+}
+.personagem img{
+    width: 734px;
+    height: 881px;
+}
+
+
