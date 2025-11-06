@@ -14,11 +14,16 @@ body{
     position: absolute;
     z-index: -999;
 }
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .header{
+    display: flex;
     background-color: #161616;
     height: 40px;
-    width: 1,920px;
-    display: flex;
+    width: 1920px;
     justify-content: flex-end;  
     align-items: center;
     gap: 30px;
@@ -37,7 +42,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 18vw;
     width: 1675px;
     height: 81.5px;
     background-color: rgb(0, 0, 0);
@@ -80,18 +84,35 @@ main{
     display: flex;
     gap: 24px;
 }
-.play-free{
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
+.container-play{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 281px;
     height: 71px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-sizing: border-box;
 }
-.divisao{
-    display: flex; 
-    flex-direction: column;
+.botao-play{
+    display: flex;
+    width: 281px;
+    height: 71px;
+    justify-content: center;
+    align-items: center;
+}
+.titulo-play{
+    display: flex;
+    align-items: center;
+}
+.vector-linha{
+    box-sizing: border-box;
+    position: absolute;
+    transform: translate(0,-32px);
+}
+.vector{
+    box-sizing: border-box;
+    transform: translate(1px, 0px);
 }
 .assistir-trailer{
     background-color: rgba(255, 255, 255, 0.2);
@@ -106,5 +127,3 @@ main{
     width: 734px;
     height: 881px;
 }
-
-
