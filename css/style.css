@@ -28,9 +28,13 @@ header{
     align-items: center;
     gap: 20px;
 }
-
 .EA{
     padding-right: 40px;
+}
+.background-menu{
+    display: flex;
+    position: absolute;
+    z-index: -1;
 }
 .menu{
     display: flex;
@@ -38,18 +42,18 @@ header{
     justify-content: space-between;
     width: 1675px;
     height: 81.5px;
-    background-image: url(/img/BackgroundHeader.svg);
     color: white;
     font-size: 20px;
     padding-left: 50px;
     padding-right: 50px;
-    transform: translate(0,-5px);
+    transform: translate(-50px,-5px);
 }
 .nav-menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 40px;
+    transform: translate(50px,0);
 }
 .download{
     display: flex;
@@ -169,7 +173,7 @@ main{
     width: 250px;
 }
 .personagem img{
-    transform: translate(0,50px);
+    transform: translate(0,60px);
     width: 875px;
     height: 906px;
 }
